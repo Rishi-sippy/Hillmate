@@ -9,7 +9,8 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rishi-sippy.hillmate"
     },
     "android": {
       "adaptiveIcon": {
@@ -43,6 +44,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "7414a034-f5d0-48e2-b358-945d15128a0b"
+      }
+    },
+    "owner": "rishi-sippy"
   }
 }
